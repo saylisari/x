@@ -46,8 +46,7 @@ The application formats log data with Python `.format()` using values from the d
 6. Retrieve the contents of the `secrets` table and the flag.
 
 ## Result
-The exploit was successful and the flag was obtained:
-`HTB{3b0cbe383374cf3f02336f9e0822997d}`
+The exploit was successful and the flag was obtained
 
 ## Notes
 This challenge shows how small inconsistencies between components can be chained into a full compromise of a web application.
