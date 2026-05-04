@@ -2,8 +2,6 @@
 HTB Offlinea
 from pathlib import Path
 
-readme = """# Hack The Box — Writeup
-
 ## Overview
 This challenge combines an SSRF validation flaw with a Python format-string injection to leak the Flask `SECRET_KEY`, then uses that key to forge a valid JWT and access the protected endpoint. The final result is the flag from the `secrets` table.  
 
