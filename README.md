@@ -1,6 +1,7 @@
 # Web Offlinea
 HTB Offlinea
-from pathlib import Path
+Challenge Scenario
+In a world without internet, information has a new price. One secret. One look. What are you willing to trade?
 
 ## Overview
 This challenge combines an SSRF validation flaw with a Python format-string injection to leak the Flask `SECRET_KEY`, then uses that key to forge a valid JWT and access the protected endpoint. The final result is the flag from the `secrets` table.  
